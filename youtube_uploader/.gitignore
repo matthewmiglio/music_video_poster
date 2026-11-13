@@ -1,0 +1,15 @@
+# Logged-in browser profiles. These hold live YouTube session cookies.
+# NEVER commit this directory.
+profiles/
+
+# Runtime state
+metadata.json
+history.json
+_debug/
+_example_html/
+_example_vids/
+stats/
+
+__pycache__/
+*.pyc
+.env

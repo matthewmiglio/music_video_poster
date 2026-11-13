@@ -1,0 +1,20 @@
+# credentials / PII (never commit)
+# youtube_uploader/profiles/ = logged-in browser cookies
+youtube_uploader/profiles/
+youtube_uploader/_debug/
+scripts/.account
+.env
+
+# data (large / generated)
+full_videos/*
+!full_videos/CLAUDE.md
+clips/
+logs/
+found_urls*.tsv
+
+# python
+__pycache__/
+*.pyc
+
+# editor / local
+.claude/settings.local.json
